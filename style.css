@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d05757;
+}
+
+.input-box{
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 500px;
+    padding:  10px 20px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #669;
+}
+
+.input-box img{
+    cursor: pointer;
+    width: 30px;
+}
